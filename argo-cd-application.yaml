@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: argo-app
+spec:
+  destination:
+    namespace: sock-shop
+    server:
+  project: default
+  source:
+    repoURL: 
+    path: https://github.com/fatihhkocyigit/eks-app-deployment.git
+    targetRevision: main
+  syncPolicy:
+    automated: {}
