@@ -1,5 +1,5 @@
 terraform {
-  source = "git@github.com:kloia/platform-modules.git//aws-iam/modules/iam-policy"
+  source = "git@github.com:fatihhkocyigit/modules.git//aws-iam/modules/iam-policy"
 }
 
 locals {

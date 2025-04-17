@@ -1,5 +1,5 @@
 terraform {
-  source = "git@github.com:kloia/platform-modules.git//aws-secrets-manager"
+  source = "git@github.com:fatihhkocyigit/modules.git//aws-secrets-manager"
 }
 
 locals {
