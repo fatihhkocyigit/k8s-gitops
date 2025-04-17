@@ -1,5 +1,5 @@
 terraform {
-  source = "git@github.com:fatihhkocyigit/modules.git//aws-iam/modules/iam-assumable-role"
+  source = "https://github.com/fatihhkocyigit/modules.git//aws-iam/modules/iam-assumable-role"
 }
 
 locals {

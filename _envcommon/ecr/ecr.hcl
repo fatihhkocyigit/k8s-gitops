@@ -1,5 +1,5 @@
 terraform {
-  source = "git@github.com:fatihhkocyigit/modules.git//aws-ecr"
+  source = "https://github.com/fatihhkocyigit/modules.git//aws-ecr"
 }
 
 locals {

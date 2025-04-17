@@ -1,5 +1,5 @@
 terraform {
-  source = "git@github.com:fatihhkocyigit/modules.git//aws-iam/modules/iam-role-for-service-accounts-eks"
+  source = "https://github.com/fatihhkocyigit/modules.git//aws-iam/modules/iam-role-for-service-accounts-eks"
 }
 
 locals {

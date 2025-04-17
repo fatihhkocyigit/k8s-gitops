@@ -1,5 +1,5 @@
 terraform {
-  source = "git@github.com:fatihhkocyigit/modules.git//aws-eks-addons"
+  source = "https://github.com/fatihhkocyigit/modules.git//aws-eks-addons"
 }
 
 locals {

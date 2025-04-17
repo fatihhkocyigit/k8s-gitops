@@ -1,5 +1,5 @@
 terraform {
-  source = "git@github.com:fatihhkocyigit/modules.git//aws-vpc"
+  source = "https://github.com/fatihhkocyigit/modules.git//aws-vpc"
 }
 
 locals {
