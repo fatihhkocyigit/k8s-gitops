@@ -1,3 +1,3 @@
 inputs = {
-  project = "training"
+  project = "dev"
 }
