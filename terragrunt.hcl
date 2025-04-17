@@ -34,8 +34,9 @@ terraform {
   backend "s3" {
     bucket         = "${local.s3_bucket_name}"
     key            = "platform/${path_relative_to_include()}/terraform.tfstate"
-    region         = "eu-west-1"
+    region         = "${local.region}"
     encrypt        = true
+    use_lockfile = true
   }
 }
 EOF
