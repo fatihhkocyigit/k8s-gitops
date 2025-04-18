@@ -1,3 +1,3 @@
 inputs = {
-  project = "dev"
+  project = "fkocyigit-dev"
 }
